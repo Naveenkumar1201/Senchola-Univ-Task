@@ -80,7 +80,7 @@ input{
     
 }
 .div3 span{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     align-items: center;
     display: flex;
 }
