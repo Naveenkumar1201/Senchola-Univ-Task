@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.container{
+    display: inline-flex;
+    /* background-color:blueviolet; */
+    width: 1300px;
+    align-items: center;
+    height: 50px;
+    margin: 2%;
+    justify-content: space-between;
+    font-weight: 800;
+    
+    
+}
+.row{
+    display: inline-flex;
+    height: fit-content;
+}
+.div1{
+    width: 300px;
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: left;
+
+}
+.div1 a{
+    justify-content: space-between;
+    /* background-color: #fff; */
+    margin-top: 1px;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    text-decoration: none;
+    justify-content: end;
+    
+}
+.div1 a span{
+    margin-left: 20px;
+
+}
+sup{
+    font-weight: 300;
+    font-size: small;
+}
+.div2 span{
+    font-size: larger;
+    right: 330px;
+    margin-top: 5px;
+    position: absolute;
+    
+}
+.container span{
+    justify-content: left;
+    /* background-color: #fff; */
+    width: 150px;
+    justify-content: left;
+    margin-left: -20px;
+    font-size: x-large;
+
+}
+input{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    background-color: #fff;
+    font-size: x-large;
+    
+}
+.div3 span{
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+}
+
+.container1{
+  background-color: rgb(165, 188, 180);
+  width: 100px;
+  height: 600px;
+  align-items: start;
+  display: flex;
+  justify-content:center ;
+}
+ul{
+    height: 400px;
+    /* background-color: #fff; */
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    /* background-color: beige; */
+    padding: 1px;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    font-size: larger;
+}
+li img{
+    width: 40px;
+
+}
+.container2{
+
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    /* background-color: blueviolet; */
+    margin-left: 8%;
+    top: 100px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+}
